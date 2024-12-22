@@ -1,0 +1,27 @@
+.header{
+    /* text-align: center; */
+
+   
+}
+
+.submenu{	
+	margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Added to horizontally center items */
+    align-items: center; /* Added to vertically center items */
+    margin-top: 10px;
+   
+}
+
+.submenu h1{
+	font-size: 40px;
+}
+
+.tiger{
+	width:9%;
+  }
+
+.color-I{
+    color:orange;
+}

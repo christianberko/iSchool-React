@@ -1,0 +1,92 @@
+body{
+  display:block !important;
+ 
+}
+
+
+.App {
+  text-align: center;
+  padding:0 3vw 3vw;
+  background-color:whitesmoke;
+}
+.stick
+{
+ /* text-align:center; */
+ position: sticky;
+ top:0px;
+ margin:0px;
+ background-color: #1b1c1d;
+ color:white;
+ padding: 0px;
+ font-size: 20px;
+ font-weight: bold;
+ z-index:9999;
+}
+.stick>h1{
+  margin:0;
+}
+
+.abt-container{    
+ padding-top: 30px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-bottom: 30px;
+}
+.About{
+  padding:20px;
+  margin:auto;
+  width:93vw;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+.About>h2{
+  margin:0;
+}
+.aboutQuote{
+  /* justify-content: center; 
+  align-items: center;
+  width: 50%; */
+  margin-top: 10px;
+  padding:10px;
+  border: 3px solid orange;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+
+
+nav{
+
+  background-color: #1b1c1d;
+}
+
+.deg-container{
+  margin-top: 20px;
+  background-color: white;
+  padding:40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+
+.deg-container h1{
+  padding:15px;
+}
+
+.emp{
+  margin-top: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  background-color:white;
+}
+
+.emp h1{
+  padding:15px
+  
+}
+
+Button{
+  width:300px;
+  height:100px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}

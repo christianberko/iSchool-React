@@ -1,0 +1,114 @@
+Table{
+    padding:60px;
+}
+
+.emp{
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+    background-color:white;
+}
+
+.emp h1{
+    padding:15px
+    
+}
+
+.stat-card{
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    height: 100px;
+    padding: 10px;
+}
+
+.stats-container{
+   
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Added to horizontally center items */
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+
+.employer-container{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Added to horizontally center items */
+    align-items: center;
+    gap: 30px;
+}
+
+.employer-card{
+    width: 180px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.empQ{
+    width: 1100px;
+    margin: 10px auto;
+    padding:20px;
+    border: 3px solid orange;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center;
+
+    
+    
+}
+/* 
+@media only screen and (min-width: 600px){
+    .empQ{
+        font-size: 10px;
+        width: 500px;
+    }
+} */
+
+@media only screen and (max-width: 1200px){
+    .empQ{
+        font-size: 14px;
+        width: 700px;
+    }
+
+    .employer-card, .stat-card{
+        font-size:12px;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    .empQ{
+        font-size: 13px;
+        width: 500px;
+    }
+
+    .employer-card, .stat-card{
+        font-size:10px;
+    }
+
+
+}
+
+
+
+
+
